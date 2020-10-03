@@ -6,56 +6,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp"
-    android:background="#BE80FF"
+    android:padding="@dimen/vinte"
+    android:background="@color/colorFundo"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FOOBAR"
-        android:textSize="35sp"
+        android:text="@string/foobar"
+        android:textSize="@dimen/trintaCinco"
         android:layout_gravity="center"
         android:layout_marginTop="70dp"
         android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
-        android:layout_marginTop="50dp"
-        android:textSize="20sp"
+        android:hint="@string/email"
+        android:layout_marginTop="@dimen/cinquenta"
+        android:textSize="@dimen/vinteSP"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp"
+        android:paddingBottom="@dimen/dez"
+        android:paddingTop="@dimen/dez"
         android:backgroundTint="#FFF"
+        android:fontFamily="sans-serif"
+        android:inputType="textEmailAddress"
         />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
-        android:layout_marginTop="20dp"
-        android:textSize="20sp"
+        android:hint="@string/password"
+        android:layout_marginTop="@dimen/vinte"
+        android:textSize="@dimen/vinteSP"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:backgroundTint="#FFF"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="LOGIN"
+        android:layout_marginTop="@dimen/trinta"
+        android:text="@string/login"
         android:textAllCaps="true"
-        android:textSize="20sp"
+        android:textSize="@dimen/vinte"
         android:padding="16dp"
-        android:background="#7E51C2"
-        android:textColor="#FFFFFF"
+        android:background="@color/colorBackgroundButtom"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="sans-serif"
         />
 
-    <View
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -64,12 +70,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign in"
-        android:layout_marginTop="20dp"
+        android:text="@string/signin"
+        android:layout_marginTop="@dimen/vinte"
         android:layout_gravity="center"
         android:gravity="bottom"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
+        android:textSize="@dimen/vinte"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="@color/colorWhite"
         />
 
 </LinearLayout>

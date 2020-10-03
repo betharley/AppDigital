@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vinte">20dp</dimen>
+    <dimen name="trinta">30dp</dimen>
+    <dimen name="trintaCinco">35sp</dimen>
+    <dimen name="cinquenta">50dp</dimen>
+    <dimen name="vinteSP">20sp</dimen>
+    <dimen name="dez">10dp</dimen>
+</resources>
