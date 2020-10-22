@@ -10,13 +10,18 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_contorno"
+        android:paddingLeft="5dp"
+        >
 
         <ImageView
             android:id="@+id/item_image"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/profile_rick"
+            android:layout_margin="1dp"
+            android:layout_gravity="center"
             />
 
         <LinearLayout
@@ -36,24 +41,26 @@
                 android:layout_marginLeft="10dp"
                 />
             <TextView
-                android:id="@+id/item_status"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Mensagem aqui"
-                android:textStyle="bold"
-                android:textSize="18sp"
-                android:layout_marginLeft="10dp"
-                />
-            <TextView
                 android:id="@+id/item_species"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Location:"
+                android:text="Species"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/item_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 />
+
             <TextView
                 android:id="@+id/item_location"
                 android:layout_width="match_parent"
